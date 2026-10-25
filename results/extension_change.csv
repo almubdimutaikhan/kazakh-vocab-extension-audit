@@ -1,0 +1,11 @@
+base,extended,set,lang,base_tokens,extended_tokens,pct_change,pct_ci_low,pct_ci_high
+qwen3.5-orig,qwen3.5-issai,belebele,en,29474,29474,0.0,0.0,0.0
+qwen3.5-orig,qwen3.5-issai,belebele,kk,67604,34865,-48.4,-49.2,-47.6
+qwen3.5-orig,qwen3.5-issai,belebele,ru,40513,48385,19.4,18.5,20.4
+qwen3.5-orig,qwen3.5-issai,kazmmlu,kk,22562,14849,-34.2,-36.2,-32.1
+qwen3.5-orig,qwen3.5-issai,kazmmlu,ru,18420,19331,4.9,3.8,6.2
+llama3.1,sherkala,belebele,en,28924,28915,-0.0,-0.1,-0.0
+llama3.1,sherkala,belebele,kk,94114,35332,-62.5,-63.0,-61.9
+llama3.1,sherkala,belebele,ru,48230,41082,-14.8,-15.3,-14.4
+llama3.1,sherkala,kazmmlu,kk,27167,14653,-46.1,-48.2,-43.8
+llama3.1,sherkala,kazmmlu,ru,19335,17481,-9.6,-10.4,-8.7

@@ -1,0 +1,38 @@
+subject,mean_qwen3.5-issai,mean_qwen3.5-orig,size_qwen3.5-issai,size_qwen3.5-orig,diff
+Accounting and Auditing (Professional & University in rus),0.5589,0.5724,297,297,-0.0135
+Biology (High School in kaz),0.7094,0.6321,1022,1022,0.0773
+Biology (High School in rus),0.8113,0.8338,1065,1065,-0.0225
+Biology (Professional & University in rus),0.5589,0.5084,297,297,0.0505
+Chemistry (High School in kaz),0.6282,0.6047,1022,1022,0.0235
+Chemistry (High School in rus),0.5771,0.5795,849,849,-0.0024
+Culture and Art (Professional & University in rus),0.5825,0.5421,297,297,0.0404
+Economics and Entrepreneurship (Professional in rus),0.6835,0.6835,297,297,0.0
+Education and Training (Professional & University in rus),0.6532,0.6768,297,297,-0.0236
+Finance (Professional & University in rus),0.6599,0.6768,297,297,-0.0168
+General Education Disciplines (Professional & University in rus),0.5403,0.5235,298,298,0.0168
+Geography (High School in kaz),0.6468,0.5793,1022,1022,0.0675
+Geography (High School in rus),0.7241,0.6959,888,888,0.0282
+Informatics (High School in kaz),0.6812,0.6938,160,160,-0.0125
+Informatics (High School in rus),0.7481,0.763,135,135,-0.0148
+Jurisprudence (Professional & University in rus),0.6633,0.6498,297,297,0.0135
+Kazakh History (High School in kaz),0.4936,0.3744,1023,1023,0.1193
+Kazakh History (High School in rus),0.5392,0.4476,1059,1059,0.0916
+Kazakh Language (High School in kaz),0.478,0.4125,1023,1023,0.0655
+Kazakh Literature (High School in kaz),0.5225,0.4012,1022,1022,0.1213
+Law (High School in kaz),0.7504,0.6863,577,577,0.0641
+Law (High School in rus),0.7738,0.8071,420,420,-0.0333
+Management and Marketing (Professional & University in rus),0.7239,0.7374,297,297,-0.0135
+Math (High School in kaz),0.4866,0.5124,1011,1011,-0.0257
+Math (High School in rus),0.5668,0.5573,1048,1048,0.0095
+Math Literacy (High School in rus),0.4093,0.4402,259,259,-0.0309
+Medicine (Professional & University in rus),0.5084,0.5488,297,297,-0.0404
+Philosophy and Psychology (Professional & University in rus),0.7542,0.7508,297,297,0.0034
+Physics (High School in kaz),0.5349,0.5245,959,959,0.0104
+Physics (High School in rus),0.5621,0.5559,644,644,0.0062
+Reading Literacy (High School in kaz),0.8571,0.8571,7,7,0.0
+Reading Literacy (High School in rus),0.875,0.875,8,8,0.0
+Russian Language (High School in rus),0.4471,0.4762,1031,1031,-0.0291
+Russian Literature (High School in rus),0.5162,0.5575,1017,1017,-0.0413
+Social Science (Professional & University in rus),0.7542,0.7677,297,297,-0.0135
+World History (High School in kaz),0.7573,0.7319,1022,1022,0.0254
+World History (High School in rus),0.7701,0.806,1031,1031,-0.0359

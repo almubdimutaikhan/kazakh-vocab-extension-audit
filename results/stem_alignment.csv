@@ -1,0 +1,5 @@
+tokenizer,words,gold_boundaries,boundary_recall,boundary_precision,pieces_per_word,exact_match,stem_kept_whole
+qwen3.5-orig,110,194,0.608,0.353,4.05,0.109,0.182
+qwen3.5-issai,110,194,0.015,0.3,1.1,0.009,0.018
+llama3.1,110,194,0.624,0.271,5.89,0.018,0.127
+sherkala,110,194,0.067,0.542,1.23,0.045,0.055

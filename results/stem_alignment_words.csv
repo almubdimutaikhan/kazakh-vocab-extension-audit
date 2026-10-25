@@ -1,0 +1,441 @@
+tokenizer,segmentation,category,tokens,recall_word
+qwen3.5-orig,олар+дың,noun-case,о | лар | дың,1.0
+qwen3.5-orig,адам+дар,noun-plural,адам | дар,1.0
+qwen3.5-orig,адам+дар+ды,noun-case,адам | дар | ды,1.0
+qwen3.5-orig,адам+дар+дың,noun-case,адам | дар | дың,1.0
+qwen3.5-orig,адам+дар+ға,noun-case,адам | дар | ға,1.0
+qwen3.5-orig,адам+ның,noun-case,адам | ның,1.0
+qwen3.5-orig,адам+дар+ы,noun-poss,адам | дар | ы,1.0
+qwen3.5-orig,ел+дер+де,noun-case,е | л | дер | де,1.0
+qwen3.5-orig,ел+дер+дің,noun-case,е | л | дер | дің,1.0
+qwen3.5-orig,жер+лер+де,noun-case,ж | ер | лер | де,1.0
+qwen3.5-orig,жер+лер+дің,noun-case,ж | ер | лер | дің,1.0
+qwen3.5-orig,жер+лер+ге,noun-case,ж | ер | лер | ге,1.0
+qwen3.5-orig,жануар+лар,noun-plural,жан | у | ар | лар,1.0
+qwen3.5-orig,жануар+лар+ды,noun-case,жан | у | ар | лар | ды,1.0
+qwen3.5-orig,жануар+лар+да,noun-case,жан | у | ар | лар | да,1.0
+qwen3.5-orig,өсімдік+тер,noun-plural,ө | сім | ді | к | тер,1.0
+qwen3.5-orig,ғалым+дар,noun-plural, | ғ | ал | ым | дар,1.0
+qwen3.5-orig,бала+лар,noun-plural,бал | ал | ар,0.0
+qwen3.5-orig,әйел+дер,noun-plural,ә | й | ел | дер,1.0
+qwen3.5-orig,әскер+лер,noun-plural,ә | ск | ер | лер,1.0
+qwen3.5-orig,тұлға+лар,noun-plural,т | ұл | ғ | ал | ар,0.0
+qwen3.5-orig,қайық+тар,noun-plural,қ | ай | ы | қ | тар,1.0
+qwen3.5-orig,мәселе+лер,noun-plural,мә | сел | ел | ер,0.0
+qwen3.5-orig,мәселе+лер+дің,noun-case,мә | сел | ел | ер | дің,0.5
+qwen3.5-orig,нәрсе+лер,noun-plural,н | ә | рс | ел | ер,0.0
+qwen3.5-orig,шара+лар,noun-plural,шар | ал | ар,0.0
+qwen3.5-orig,құс+тар+ды,noun-case,құ | стар | ды,0.5
+qwen3.5-orig,әлем+нің,noun-case,ә | лем | нің,1.0
+qwen3.5-orig,африка+ның,noun-case,а | фри | к | аны | ң,0.0
+qwen3.5-orig,италия+ның,noun-case,и | та | лия | ның,1.0
+qwen3.5-orig,құжат+тың,noun-case,құ | жат | ты | ң,1.0
+qwen3.5-orig,ғасыр+да,noun-case, | ғ | асы | р | да,1.0
+qwen3.5-orig,уақыт+та,noun-case,у | а | қы | тта,0.0
+qwen3.5-orig,деңгей+де,noun-case,де | ң | гей | де,1.0
+qwen3.5-orig,жағдай+лар+да,noun-case,жа | ғ | дай | лар | да,1.0
+qwen3.5-orig,сала+сы+нда,noun-poss,сал | асы | нда,0.5
+qwen3.5-orig,бөліг+і+н,noun-poss,б | ө | лі | г | ін,0.5
+qwen3.5-orig,бөліг+і+нде,noun-poss,б | ө | лі | г | інде,0.5
+qwen3.5-orig,түр+і+нде,noun-poss,тү | рін | де,0.0
+qwen3.5-orig,жүз+і+нде,noun-poss,жү | з | інде,0.5
+qwen3.5-orig,жүз+і+ндегі,noun-poss,жү | з | інде | гі,0.5
+qwen3.5-orig,негіз+і+нде,noun-poss,не | гі | з | інде,0.5
+qwen3.5-orig,негіз+і+н,noun-poss,не | гі | з | ін,0.5
+qwen3.5-orig,негіз+і+нен,noun-poss,не | гі | зі | нен,0.5
+qwen3.5-orig,бас+ы+нда,noun-poss,б | асы | нда,0.5
+qwen3.5-orig,соң+ы+нда,noun-poss,со | ң | ы | нда,1.0
+qwen3.5-orig,жан+ы+нда,noun-poss,ж | аны | нда,0.5
+qwen3.5-orig,айнала+сы+нда,noun-poss,а | йна | лас | ы | нда,0.5
+qwen3.5-orig,аймақ+тар+ы+нда,noun-poss,а | йма | қ | тары | нда,0.6666666666666666
+qwen3.5-orig,кезең+і+нде,noun-poss,к | ез | е | ң | інде,0.5
+qwen3.5-orig,жүйе+сі+не,noun-poss,ж | үй | ес | і | не,0.5
+qwen3.5-orig,деңгей+і+не,noun-poss,де | ң | гей | і | не,1.0
+qwen3.5-orig,қабілет+і,noun-poss,қ | аб | і | лет | і,1.0
+qwen3.5-orig,қабілет+і+н,noun-poss,қ | аб | і | лет | ін,0.5
+qwen3.5-orig,мүмкін+дік,derivation,мү | м | кін | ді | к,1.0
+qwen3.5-orig,мүмкін+діг+і+н,derivation,мү | м | кін | ді | г | ін,0.6666666666666666
+qwen3.5-orig,тәуелсіз+дік,derivation,т | ә | у | ел | сі | з | ді | к,1.0
+qwen3.5-orig,өз+дер+і+нің,pronoun,өз | дер | і | нің,1.0
+qwen3.5-orig,өз+дер+і+н,pronoun,өз | дер | ін,0.6666666666666666
+qwen3.5-orig,таб+ыл+а+ды,verb,та | бы | лады,0.0
+qwen3.5-orig,таб+ыл+а+тын,verb-participle,та | бы | латы | н,0.0
+qwen3.5-orig,қолдан+ыл+а+ды,verb,қ | ол | д | аны | лады,0.0
+qwen3.5-orig,қолдан+ыл+а+тын,verb-participle,қ | ол | д | аны | латы | н,0.0
+qwen3.5-orig,пайдалан+ыл+а+ды,verb,п | ай | дал | аны | лады,0.0
+qwen3.5-orig,пайдалан+ыл+а+тын,verb-participle,п | ай | дал | аны | латы | н,0.0
+qwen3.5-orig,пайдалан+ыл+ған,verb-participle,п | ай | дал | аны | л | ған,0.5
+qwen3.5-orig,пайдалан+у,verb-noun,п | ай | дал | ан | у,1.0
+qwen3.5-orig,бол+а+тын,verb-participle,бо | латы | н,0.0
+qwen3.5-orig,бол+ған+ы,verb-participle,бол | ғ | аны,0.5
+qwen3.5-orig,бол+ма+й+ды,verb,бол | май | ды,0.6666666666666666
+qwen3.5-orig,бол+ған+да,verb-participle,бол | ғ | анда,0.5
+qwen3.5-orig,бол+ған+дық+тан,verb-participle,бол | ғ | анд | ы | қ | тан,0.6666666666666666
+qwen3.5-orig,бол+са+ңыз,verb,бол | са | ңыз,1.0
+qwen3.5-orig,бол+ыңыз,verb,бол | ы | ңыз,1.0
+qwen3.5-orig,бол+у+ы+на,verb-noun,бол | у | ы | на,1.0
+qwen3.5-orig,бар+а+тын,verb-participle,бар | аты | н,0.5
+qwen3.5-orig,кел+е+тін,verb-participle,к | ел | ет | ін,0.5
+qwen3.5-orig,тұр+а+тын,verb-participle,тұ | рат | ын,0.0
+qwen3.5-orig,бер+е+тін,verb-participle,берет | ін,0.0
+qwen3.5-orig,бер+іл+ген,verb-participle,бер | іл | ген,1.0
+qwen3.5-orig,жаса+ған,verb-participle,ж | аса | ған,1.0
+qwen3.5-orig,жаса+л+ған,verb-participle,ж | ас | ал | ған,0.5
+qwen3.5-orig,жаса+й+ды,verb,ж | ас | ай | ды,0.5
+qwen3.5-orig,жаз+ыл+ған,verb-participle,ж | аз | ыл | ған,1.0
+qwen3.5-orig,ал+ын+ған,verb-participle,а | лын | ған,0.5
+qwen3.5-orig,ал+ған+нан,verb-participle,ал | ған | нан,1.0
+qwen3.5-orig,қос+ыл+ған,verb-participle,қ | ос | ыл | ған,1.0
+qwen3.5-orig,көрсет+е+ді,verb,кө | рс | ет | ед | і,0.5
+qwen3.5-orig,ұсын+а+ды,verb,ұ | сы | на | ды,0.5
+qwen3.5-orig,істе+й+ді,verb,і | стей | ді,0.5
+qwen3.5-orig,істе+й+тін,verb-participle,і | стей | т | ін,0.5
+qwen3.5-orig,сөйле+й+тін,verb-participle,с | ө | й | лей | т | ін,0.5
+qwen3.5-orig,кездес+е+ді,verb,к | езд | ес | ед | і,0.5
+qwen3.5-orig,кездес+е+тін,verb-participle,к | езд | ес | ет | ін,0.5
+qwen3.5-orig,көрін+е+тін,verb-participle,кө | рін | ет | ін,0.5
+qwen3.5-orig,ата+л+а+ды,verb,ат | ала | ды,0.3333333333333333
+qwen3.5-orig,отыр+а+ды,verb,от | ы | ра | ды,0.5
+qwen3.5-orig,сақта+ңыз,verb,са | қта | ңыз,1.0
+qwen3.5-orig,қара+ңыз,verb,қ | ара | ңыз,1.0
+qwen3.5-orig,еуропа+лық,derivation,е | ур | оп | ал | ы | қ,0.0
+qwen3.5-orig,физика+лық,derivation,физ | ика | лық,1.0
+qwen3.5-orig,медицина+лық,derivation,медицина | лық,1.0
+qwen3.5-orig,дәстүр+лі,derivation,дә | ст | ү | р | лі,1.0
+qwen3.5-orig,қауіп+ті,derivation,қа | у | і | п | ті,1.0
+qwen3.5-orig,шектеу+лі,derivation,ш | ек | те | у | лі,1.0
+qwen3.5-orig,көб+ірек,derivation,кө | бі | рек,0.0
+qwen3.5-orig,жақсы+рақ,derivation,жа | қ | сы | ра | қ,1.0
+qwen3.5-orig,кейін+ірек,derivation,кей | і | ні | рек,0.0
+qwen3.5-orig,бір+інші,derivation,бір | ін | ші,1.0
+qwen3.5-orig,мың+даған,derivation,мы | ң | да | ған,1.0
+qwen3.5-issai,олар+дың,noun-case,олардың,0.0
+qwen3.5-issai,адам+дар,noun-plural,адамдар,0.0
+qwen3.5-issai,адам+дар+ды,noun-case,адамдарды,0.0
+qwen3.5-issai,адам+дар+дың,noun-case,адамдардың,0.0
+qwen3.5-issai,адам+дар+ға,noun-case,адамдарға,0.0
+qwen3.5-issai,адам+ның,noun-case,адамның,0.0
+qwen3.5-issai,адам+дар+ы,noun-poss,адамдары,0.0
+qwen3.5-issai,ел+дер+де,noun-case,елдерде,0.0
+qwen3.5-issai,ел+дер+дің,noun-case,елдердің,0.0
+qwen3.5-issai,жер+лер+де,noun-case,жерлерде,0.0
+qwen3.5-issai,жер+лер+дің,noun-case,жерлердің,0.0
+qwen3.5-issai,жер+лер+ге,noun-case,жерлерге,0.0
+qwen3.5-issai,жануар+лар,noun-plural,жануарлар,0.0
+qwen3.5-issai,жануар+лар+ды,noun-case,жануарларды,0.0
+qwen3.5-issai,жануар+лар+да,noun-case,жануарлар | да,0.5
+qwen3.5-issai,өсімдік+тер,noun-plural,өсімдіктер,0.0
+qwen3.5-issai,ғалым+дар,noun-plural,ғалымдар,0.0
+qwen3.5-issai,бала+лар,noun-plural,балалар,0.0
+qwen3.5-issai,әйел+дер,noun-plural,әйелдер,0.0
+qwen3.5-issai,әскер+лер,noun-plural,әскер | лер,1.0
+qwen3.5-issai,тұлға+лар,noun-plural,тұлғалар,0.0
+qwen3.5-issai,қайық+тар,noun-plural,қай | ықтар,0.0
+qwen3.5-issai,мәселе+лер,noun-plural,мәселелер,0.0
+qwen3.5-issai,мәселе+лер+дің,noun-case,мәселелердің,0.0
+qwen3.5-issai,нәрсе+лер,noun-plural,нәрселер,0.0
+qwen3.5-issai,шара+лар,noun-plural,шаралар,0.0
+qwen3.5-issai,құс+тар+ды,noun-case,құс | тарды,0.5
+qwen3.5-issai,әлем+нің,noun-case,әлемнің,0.0
+qwen3.5-issai,африка+ның,noun-case, | аф | р | иканың,0.0
+qwen3.5-issai,италия+ның,noun-case,ит | ал | ияның,0.0
+qwen3.5-issai,құжат+тың,noun-case,құжаттың,0.0
+qwen3.5-issai,ғасыр+да,noun-case,ғасырда,0.0
+qwen3.5-issai,уақыт+та,noun-case,уақытта,0.0
+qwen3.5-issai,деңгей+де,noun-case,деңгейде,0.0
+qwen3.5-issai,жағдай+лар+да,noun-case,жағдайларда,0.0
+qwen3.5-issai,сала+сы+нда,noun-poss,саласында,0.0
+qwen3.5-issai,бөліг+і+н,noun-poss,бөлігін,0.0
+qwen3.5-issai,бөліг+і+нде,noun-poss,бөлігінде,0.0
+qwen3.5-issai,түр+і+нде,noun-poss,түрінде,0.0
+qwen3.5-issai,жүз+і+нде,noun-poss,жүзінде,0.0
+qwen3.5-issai,жүз+і+ндегі,noun-poss,жүзіндегі,0.0
+qwen3.5-issai,негіз+і+нде,noun-poss,негізінде,0.0
+qwen3.5-issai,негіз+і+н,noun-poss,негізін,0.0
+qwen3.5-issai,негіз+і+нен,noun-poss,негізінен,0.0
+qwen3.5-issai,бас+ы+нда,noun-poss,басында,0.0
+qwen3.5-issai,соң+ы+нда,noun-poss,соңында,0.0
+qwen3.5-issai,жан+ы+нда,noun-poss,жанында,0.0
+qwen3.5-issai,айнала+сы+нда,noun-poss,айналасында,0.0
+qwen3.5-issai,аймақ+тар+ы+нда,noun-poss,аймақтарында,0.0
+qwen3.5-issai,кезең+і+нде,noun-poss,кезеңінде,0.0
+qwen3.5-issai,жүйе+сі+не,noun-poss,жүйесіне,0.0
+qwen3.5-issai,деңгей+і+не,noun-poss,деңгейіне,0.0
+qwen3.5-issai,қабілет+і,noun-poss,қабілеті,0.0
+qwen3.5-issai,қабілет+і+н,noun-poss,қабілетін,0.0
+qwen3.5-issai,мүмкін+дік,derivation,мүмкіндік,0.0
+qwen3.5-issai,мүмкін+діг+і+н,derivation,мүмкіндігін,0.0
+qwen3.5-issai,тәуелсіз+дік,derivation,тәуелсіздік,0.0
+qwen3.5-issai,өз+дер+і+нің,pronoun,өздерінің,0.0
+qwen3.5-issai,өз+дер+і+н,pronoun,өздерін,0.0
+qwen3.5-issai,таб+ыл+а+ды,verb,табылады,0.0
+qwen3.5-issai,таб+ыл+а+тын,verb-participle,табылатын,0.0
+qwen3.5-issai,қолдан+ыл+а+ды,verb,қолданылады,0.0
+qwen3.5-issai,қолдан+ыл+а+тын,verb-participle,қолданылатын,0.0
+qwen3.5-issai,пайдалан+ыл+а+ды,verb,пайдаланылады,0.0
+qwen3.5-issai,пайдалан+ыл+а+тын,verb-participle,пайдаланылатын,0.0
+qwen3.5-issai,пайдалан+ыл+ған,verb-participle,пайдаланылған,0.0
+qwen3.5-issai,пайдалан+у,verb-noun,пайдалану,0.0
+qwen3.5-issai,бол+а+тын,verb-participle,болатын,0.0
+qwen3.5-issai,бол+ған+ы,verb-participle,болғаны,0.0
+qwen3.5-issai,бол+ма+й+ды,verb,болмайды,0.0
+qwen3.5-issai,бол+ған+да,verb-participle,болғанда,0.0
+qwen3.5-issai,бол+ған+дық+тан,verb-participle,болғандықтан,0.0
+qwen3.5-issai,бол+са+ңыз,verb,болсаңыз,0.0
+qwen3.5-issai,бол+ыңыз,verb,болыңыз,0.0
+qwen3.5-issai,бол+у+ы+на,verb-noun,болуына,0.0
+qwen3.5-issai,бар+а+тын,verb-participle,баратын,0.0
+qwen3.5-issai,кел+е+тін,verb-participle,келетін,0.0
+qwen3.5-issai,тұр+а+тын,verb-participle,тұратын,0.0
+qwen3.5-issai,бер+е+тін,verb-participle,беретін,0.0
+qwen3.5-issai,бер+іл+ген,verb-participle,берілген,0.0
+qwen3.5-issai,жаса+ған,verb-participle,жасаған,0.0
+qwen3.5-issai,жаса+л+ған,verb-participle,жасалған,0.0
+qwen3.5-issai,жаса+й+ды,verb,жасайды,0.0
+qwen3.5-issai,жаз+ыл+ған,verb-participle,жазылған,0.0
+qwen3.5-issai,ал+ын+ған,verb-participle,алынған,0.0
+qwen3.5-issai,ал+ған+нан,verb-participle,алғаннан,0.0
+qwen3.5-issai,қос+ыл+ған,verb-participle,қосылған,0.0
+qwen3.5-issai,көрсет+е+ді,verb,көрсетеді,0.0
+qwen3.5-issai,ұсын+а+ды,verb,ұсынады,0.0
+qwen3.5-issai,істе+й+ді,verb,істейді,0.0
+qwen3.5-issai,істе+й+тін,verb-participle,істейтін,0.0
+qwen3.5-issai,сөйле+й+тін,verb-participle,сөйлейтін,0.0
+qwen3.5-issai,кездес+е+ді,verb,кездеседі,0.0
+qwen3.5-issai,кездес+е+тін,verb-participle,кездесетін,0.0
+qwen3.5-issai,көрін+е+тін,verb-participle,көрінетін,0.0
+qwen3.5-issai,ата+л+а+ды,verb,аталады,0.0
+qwen3.5-issai,отыр+а+ды,verb,отырады,0.0
+qwen3.5-issai,сақта+ңыз,verb,сақ | таң | ыз,0.0
+qwen3.5-issai,қара+ңыз,verb,қараңыз,0.0
+qwen3.5-issai,еуропа+лық,derivation,еуропалық,0.0
+qwen3.5-issai,физика+лық,derivation,физикалық,0.0
+qwen3.5-issai,медицина+лық,derivation,медициналық,0.0
+qwen3.5-issai,дәстүр+лі,derivation,дәстүрлі,0.0
+qwen3.5-issai,қауіп+ті,derivation,қауіпті,0.0
+qwen3.5-issai,шектеу+лі,derivation,шектеулі,0.0
+qwen3.5-issai,көб+ірек,derivation,көбірек,0.0
+qwen3.5-issai,жақсы+рақ,derivation,жақсырақ,0.0
+qwen3.5-issai,кейін+ірек,derivation,кейінірек,0.0
+qwen3.5-issai,бір+інші,derivation,бірінші,0.0
+qwen3.5-issai,мың+даған,derivation,мыңдаған,0.0
+llama3.1,олар+дың,noun-case,о | л | ар | ды | � | �,1.0
+llama3.1,адам+дар,noun-plural,ад | ам | д | ар,1.0
+llama3.1,адам+дар+ды,noun-case,ад | ам | д | ар | ды,1.0
+llama3.1,адам+дар+дың,noun-case,ад | ам | д | ар | ды | � | �,1.0
+llama3.1,адам+дар+ға,noun-case,ад | ам | д | ар | � | � | а,1.0
+llama3.1,адам+ның,noun-case,ад | ам | ны | � | �,1.0
+llama3.1,адам+дар+ы,noun-poss,ад | ам | д | ар | ы,1.0
+llama3.1,ел+дер+де,noun-case,е | л | дер | де,1.0
+llama3.1,ел+дер+дің,noun-case,е | л | дер | ді | � | �,1.0
+llama3.1,жер+лер+де,noun-case,ж | ер | лер | де,1.0
+llama3.1,жер+лер+дің,noun-case,ж | ер | лер | ді | � | �,1.0
+llama3.1,жер+лер+ге,noun-case,ж | ер | лерг | е,0.5
+llama3.1,жануар+лар,noun-plural,ж | ану | ар | л | ар,1.0
+llama3.1,жануар+лар+ды,noun-case,ж | ану | ар | л | ар | ды,1.0
+llama3.1,жануар+лар+да,noun-case,ж | ану | ар | л | ар | да,1.0
+llama3.1,өсімдік+тер,noun-plural, | � | � | сім | д | ік | тер,1.0
+llama3.1,ғалым+дар,noun-plural,� | � | ал | ым | д | ар,1.0
+llama3.1,бала+лар,noun-plural,бал | ал | ар,0.0
+llama3.1,әйел+дер,noun-plural, | � | � | й | ел | дер,1.0
+llama3.1,әскер+лер,noun-plural, | � | � | ск | ер | лер,1.0
+llama3.1,тұлға+лар,noun-plural,т | � | � | л | � | � | ал | ар,0.0
+llama3.1,қайық+тар,noun-plural,� | � | ай | ы | � | � | тар,1.0
+llama3.1,мәселе+лер,noun-plural,м | � | � | с | ел | ел | ер,0.0
+llama3.1,мәселе+лер+дің,noun-case,м | � | � | с | ел | ел | ер | ді | � | �,0.5
+llama3.1,нәрсе+лер,noun-plural,н | � | � | р | с | ел | ер,0.0
+llama3.1,шара+лар,noun-plural,ш | ар | ал | ар,0.0
+llama3.1,құс+тар+ды,noun-case,� | � | � | � | ст | ар | ды,0.5
+llama3.1,әлем+нің,noun-case, | � | � | лем | ні | � | �,1.0
+llama3.1,африка+ның,noun-case,а | ф | ри | кан | ы | � | �,0.0
+llama3.1,италия+ның,noun-case,и | та | лия | ны | � | �,1.0
+llama3.1,құжат+тың,noun-case,� | � | � | � | ж | ат | ты | � | �,1.0
+llama3.1,ғасыр+да,noun-case,� | � | ас | ы | р | да,1.0
+llama3.1,уақыт+та,noun-case,у | а | � | � | ыт | та,1.0
+llama3.1,деңгей+де,noun-case,де | � | � | г | ей | де,1.0
+llama3.1,жағдай+лар+да,noun-case,ж | а | � | � | д | ай | л | ар | да,1.0
+llama3.1,сала+сы+нда,noun-poss,сал | ас | ы | н | да,0.5
+llama3.1,бөліг+і+н,noun-poss,б | � | � | лі | г | ін,0.5
+llama3.1,бөліг+і+нде,noun-poss,б | � | � | лі | г | ін | де,0.5
+llama3.1,түр+і+нде,noun-poss,т | � | � | р | ін | де,0.5
+llama3.1,жүз+і+нде,noun-poss,ж | � | � | з | ін | де,0.5
+llama3.1,жүз+і+ндегі,noun-poss,ж | � | � | з | ін | д | ег | і,0.5
+llama3.1,негіз+і+нде,noun-poss,нег | із | ін | де,0.5
+llama3.1,негіз+і+н,noun-poss,нег | із | ін,0.5
+llama3.1,негіз+і+нен,noun-poss,нег | із | ін | ен,0.5
+llama3.1,бас+ы+нда,noun-poss,б | ас | ы | н | да,1.0
+llama3.1,соң+ы+нда,noun-poss,со | � | � | ы | н | да,1.0
+llama3.1,жан+ы+нда,noun-poss,ж | аны | н | да,0.5
+llama3.1,айнала+сы+нда,noun-poss,а | й | на | лас | ы | н | да,0.5
+llama3.1,аймақ+тар+ы+нда,noun-poss,а | й | ма | � | � | тар | ы | н | да,1.0
+llama3.1,кезең+і+нде,noun-poss,к | ез | е | � | � | ін | де,0.5
+llama3.1,жүйе+сі+не,noun-poss,ж | � | � | й | ес | і | не,0.5
+llama3.1,деңгей+і+не,noun-poss,де | � | � | г | ей | і | не,1.0
+llama3.1,қабілет+і,noun-poss,� | � | аб | іл | ет | і,1.0
+llama3.1,қабілет+і+н,noun-poss,� | � | аб | іл | ет | ін,0.5
+llama3.1,мүмкін+дік,derivation,м | � | � | м | кін | д | ік,1.0
+llama3.1,мүмкін+діг+і+н,derivation,м | � | � | м | кін | ді | г | ін,0.6666666666666666
+llama3.1,тәуелсіз+дік,derivation,т | � | � | у | ел | с | із | д | ік,1.0
+llama3.1,өз+дер+і+нің,pronoun, | � | � | зд | ері | ні | � | �,0.3333333333333333
+llama3.1,өз+дер+і+н,pronoun, | � | � | зд | ер | ін,0.3333333333333333
+llama3.1,таб+ыл+а+ды,verb,таб | ы | лад | ы,0.3333333333333333
+llama3.1,таб+ыл+а+тын,verb-participle,таб | ы | латы | н,0.3333333333333333
+llama3.1,қолдан+ыл+а+ды,verb,� | � | ол | дан | ы | лад | ы,0.3333333333333333
+llama3.1,қолдан+ыл+а+тын,verb-participle,� | � | ол | дан | ы | латы | н,0.3333333333333333
+llama3.1,пайдалан+ыл+а+ды,verb,п | ай | дал | аны | лад | ы,0.0
+llama3.1,пайдалан+ыл+а+тын,verb-participle,п | ай | дал | аны | латы | н,0.0
+llama3.1,пайдалан+ыл+ған,verb-participle,п | ай | дал | аны | л | � | � | ан,0.5
+llama3.1,пайдалан+у,verb-noun,п | ай | дал | ану,0.0
+llama3.1,бол+а+тын,verb-participle,бол | аты | н,0.5
+llama3.1,бол+ған+ы,verb-participle,бол | � | � | аны,0.5
+llama3.1,бол+ма+й+ды,verb,бол | м | айд | ы,0.3333333333333333
+llama3.1,бол+ған+да,verb-participle,бол | � | � | ан | да,1.0
+llama3.1,бол+ған+дық+тан,verb-participle,бол | � | � | анд | ы | � | � | т | ан,0.6666666666666666
+llama3.1,бол+са+ңыз,verb,бол | са | � | � | ы | з,1.0
+llama3.1,бол+ыңыз,verb,бол | ы | � | � | ы | з,1.0
+llama3.1,бол+у+ы+на,verb-noun,бол | у | ы | на,1.0
+llama3.1,бар+а+тын,verb-participle,бар | аты | н,0.5
+llama3.1,кел+е+тін,verb-participle,к | ел | ет | ін,0.5
+llama3.1,тұр+а+тын,verb-participle,т | � | � | рат | ы | н,0.0
+llama3.1,бер+е+тін,verb-participle,бер | ет | ін,0.5
+llama3.1,бер+іл+ген,verb-participle,бер | іл | ген,1.0
+llama3.1,жаса+ған,verb-participle,ж | ас | а | � | � | ан,1.0
+llama3.1,жаса+л+ған,verb-participle,ж | ас | ал | � | � | ан,0.5
+llama3.1,жаса+й+ды,verb,ж | ас | айд | ы,0.0
+llama3.1,жаз+ыл+ған,verb-participle,ж | аз | ыл | � | � | ан,1.0
+llama3.1,ал+ын+ған,verb-participle,а | лы | н | � | � | ан,0.5
+llama3.1,ал+ған+нан,verb-participle,ал | � | � | ан | н | ан,1.0
+llama3.1,қос+ыл+ған,verb-participle,� | � | ос | ыл | � | � | ан,1.0
+llama3.1,көрсет+е+ді,verb,к | � | � | р | с | ет | ед | і,0.5
+llama3.1,ұсын+а+ды,verb,� | � | сы | над | ы,0.0
+llama3.1,істе+й+ді,verb,і | ст | ей | ді,0.5
+llama3.1,істе+й+тін,verb-participle,і | ст | ей | т | ін,0.5
+llama3.1,сөйле+й+тін,verb-participle,с | � | � | й | лей | т | ін,0.5
+llama3.1,кездес+е+ді,verb,к | езд | ес | ед | і,0.5
+llama3.1,кездес+е+тін,verb-participle,к | езд | ес | ет | ін,0.5
+llama3.1,көрін+е+тін,verb-participle,к | � | � | р | ін | ет | ін,0.5
+llama3.1,ата+л+а+ды,verb,а | тал | ад | ы,0.3333333333333333
+llama3.1,отыр+а+ды,verb,от | ы | рад | ы,0.0
+llama3.1,сақта+ңыз,verb,с | а | � | � | та | � | � | ы | з,1.0
+llama3.1,қара+ңыз,verb,� | � | ара | � | � | ы | з,1.0
+llama3.1,еуропа+лық,derivation,е | ур | оп | алы | � | �,0.0
+llama3.1,физика+лық,derivation,физ | ика | лы | � | �,1.0
+llama3.1,медицина+лық,derivation,меди | ци | на | лы | � | �,1.0
+llama3.1,дәстүр+лі,derivation,д | � | � | ст | � | � | р | лі,1.0
+llama3.1,қауіп+ті,derivation,� | � | а | у | іп | ті,1.0
+llama3.1,шектеу+лі,derivation,ш | ект | е | у | лі,1.0
+llama3.1,көб+ірек,derivation,к | � | � | б | ір | ек,1.0
+llama3.1,жақсы+рақ,derivation,ж | а | � | � | сы | ра | � | �,1.0
+llama3.1,кейін+ірек,derivation,к | ей | і | ні | рек,0.0
+llama3.1,бір+інші,derivation,б | ір | ін | ші,1.0
+llama3.1,мың+даған,derivation,мы | � | � | да | � | � | ан,1.0
+sherkala,олар+дың,noun-case,олардың,0.0
+sherkala,адам+дар,noun-plural,адамдар,0.0
+sherkala,адам+дар+ды,noun-case,адамдарды,0.0
+sherkala,адам+дар+дың,noun-case,адамдардың,0.0
+sherkala,адам+дар+ға,noun-case,адамдарға,0.0
+sherkala,адам+ның,noun-case,адамның,0.0
+sherkala,адам+дар+ы,noun-poss,адамдар | ы,0.5
+sherkala,ел+дер+де,noun-case,елдерде,0.0
+sherkala,ел+дер+дің,noun-case,елдердің,0.0
+sherkala,жер+лер+де,noun-case,жерлерде,0.0
+sherkala,жер+лер+дің,noun-case,жерлер | дің,0.5
+sherkala,жер+лер+ге,noun-case,жерлер | ге,0.5
+sherkala,жануар+лар,noun-plural,жануарлар,0.0
+sherkala,жануар+лар+ды,noun-case,жануарлар | ды,0.5
+sherkala,жануар+лар+да,noun-case,жануарлар | да,0.5
+sherkala,өсімдік+тер,noun-plural,өсімдіктер,0.0
+sherkala,ғалым+дар,noun-plural,ғалымдар,0.0
+sherkala,бала+лар,noun-plural,балалар,0.0
+sherkala,әйел+дер,noun-plural,әйелдер,0.0
+sherkala,әскер+лер,noun-plural,әскер | лер,1.0
+sherkala,тұлға+лар,noun-plural,тұлғалар,0.0
+sherkala,қайық+тар,noun-plural,қай | ықтар,0.0
+sherkala,мәселе+лер,noun-plural,мәселелер,0.0
+sherkala,мәселе+лер+дің,noun-case,мәселелерді | ң,0.0
+sherkala,нәрсе+лер,noun-plural,нәрсе | лер,1.0
+sherkala,шара+лар,noun-plural,шаралар,0.0
+sherkala,құс+тар+ды,noun-case,құстар | ды,0.5
+sherkala,әлем+нің,noun-case,әлемнің,0.0
+sherkala,африка+ның,noun-case,аф | р | иканың,0.0
+sherkala,италия+ның,noun-case, | итал | ияның,0.0
+sherkala,құжат+тың,noun-case,құжат | тың,1.0
+sherkala,ғасыр+да,noun-case,ғасырда,0.0
+sherkala,уақыт+та,noun-case,уақытта,0.0
+sherkala,деңгей+де,noun-case,деңгейде,0.0
+sherkala,жағдай+лар+да,noun-case,жағдайларда,0.0
+sherkala,сала+сы+нда,noun-poss,саласында,0.0
+sherkala,бөліг+і+н,noun-poss,бөлігін,0.0
+sherkala,бөліг+і+нде,noun-poss,бөлігінде,0.0
+sherkala,түр+і+нде,noun-poss,түрінде,0.0
+sherkala,жүз+і+нде,noun-poss,жүзінде,0.0
+sherkala,жүз+і+ндегі,noun-poss,жүзінде | г | і,0.0
+sherkala,негіз+і+нде,noun-poss,негізінде,0.0
+sherkala,негіз+і+н,noun-poss,негізін,0.0
+sherkala,негіз+і+нен,noun-poss,негізінен,0.0
+sherkala,бас+ы+нда,noun-poss,басында,0.0
+sherkala,соң+ы+нда,noun-poss,соңында,0.0
+sherkala,жан+ы+нда,noun-poss,жанында,0.0
+sherkala,айнала+сы+нда,noun-poss,айнал | асында,0.0
+sherkala,аймақ+тар+ы+нда,noun-poss,аймақтар | ында,0.3333333333333333
+sherkala,кезең+і+нде,noun-poss,кезеңінде,0.0
+sherkala,жүйе+сі+не,noun-poss,жүйесіне,0.0
+sherkala,деңгей+і+не,noun-poss,деңгейіне,0.0
+sherkala,қабілет+і,noun-poss,қабілеті,0.0
+sherkala,қабілет+і+н,noun-poss,қабілетін,0.0
+sherkala,мүмкін+дік,derivation,мүмкіндік,0.0
+sherkala,мүмкін+діг+і+н,derivation,мүмкіндігін,0.0
+sherkala,тәуелсіз+дік,derivation,тәуелсіздік,0.0
+sherkala,өз+дер+і+нің,pronoun,өздерінің,0.0
+sherkala,өз+дер+і+н,pronoun,өздерін,0.0
+sherkala,таб+ыл+а+ды,verb,табылады,0.0
+sherkala,таб+ыл+а+тын,verb-participle,табылатын,0.0
+sherkala,қолдан+ыл+а+ды,verb,қолданылады,0.0
+sherkala,қолдан+ыл+а+тын,verb-participle,қолданылатын,0.0
+sherkala,пайдалан+ыл+а+ды,verb,пайдаланылады,0.0
+sherkala,пайдалан+ыл+а+тын,verb-participle,пайдаланылатын,0.0
+sherkala,пайдалан+ыл+ған,verb-participle,пайдалан | ылған,0.5
+sherkala,пайдалан+у,verb-noun,пайдалану,0.0
+sherkala,бол+а+тын,verb-participle,болатын,0.0
+sherkala,бол+ған+ы,verb-participle,болғаны,0.0
+sherkala,бол+ма+й+ды,verb,болмайды,0.0
+sherkala,бол+ған+да,verb-participle,болғанда,0.0
+sherkala,бол+ған+дық+тан,verb-participle,болғандықтан,0.0
+sherkala,бол+са+ңыз,verb,болсаңыз,0.0
+sherkala,бол+ыңыз,verb,болыңыз,0.0
+sherkala,бол+у+ы+на,verb-noun,болуына,0.0
+sherkala,бар+а+тын,verb-participle,баратын,0.0
+sherkala,кел+е+тін,verb-participle,келетін,0.0
+sherkala,тұр+а+тын,verb-participle,тұратын,0.0
+sherkala,бер+е+тін,verb-participle,беретін,0.0
+sherkala,бер+іл+ген,verb-participle,берілген,0.0
+sherkala,жаса+ған,verb-participle,жасаған,0.0
+sherkala,жаса+л+ған,verb-participle,жасалған,0.0
+sherkala,жаса+й+ды,verb,жасайды,0.0
+sherkala,жаз+ыл+ған,verb-participle,жазылған,0.0
+sherkala,ал+ын+ған,verb-participle,алынған,0.0
+sherkala,ал+ған+нан,verb-participle,алғаннан,0.0
+sherkala,қос+ыл+ған,verb-participle,қосылған,0.0
+sherkala,көрсет+е+ді,verb,көрсетеді,0.0
+sherkala,ұсын+а+ды,verb,ұсынады,0.0
+sherkala,істе+й+ді,verb,істейді,0.0
+sherkala,істе+й+тін,verb-participle,істейтін,0.0
+sherkala,сөйле+й+тін,verb-participle,сөйл | ейтін,0.0
+sherkala,кездес+е+ді,verb,кездеседі,0.0
+sherkala,кездес+е+тін,verb-participle,кездесетін,0.0
+sherkala,көрін+е+тін,verb-participle,көрінетін,0.0
+sherkala,ата+л+а+ды,verb,аталады,0.0
+sherkala,отыр+а+ды,verb,отырады,0.0
+sherkala,сақта+ңыз,verb,сақ | таңыз,0.0
+sherkala,қара+ңыз,verb,қараңыз,0.0
+sherkala,еуропа+лық,derivation,еур | опалық,0.0
+sherkala,физика+лық,derivation,физикалық,0.0
+sherkala,медицина+лық,derivation,медициналық,0.0
+sherkala,дәстүр+лі,derivation,дәстүрлі,0.0
+sherkala,қауіп+ті,derivation,қауіпті,0.0
+sherkala,шектеу+лі,derivation,шектеулі,0.0
+sherkala,көб+ірек,derivation,көбірек,0.0
+sherkala,жақсы+рақ,derivation,жақсы | рақ,1.0
+sherkala,кейін+ірек,derivation,кейін | ірек,1.0
+sherkala,бір+інші,derivation,бірінші,0.0
+sherkala,мың+даған,derivation,мыңдаған,0.0

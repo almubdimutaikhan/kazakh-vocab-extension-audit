@@ -1,0 +1,10 @@
+,value
+same_bpe_vocab,True
+same_bpe_merges,True
+same_pre_tokenizer,True
+same_normalizer,True
+new_added_tokens,16004
+new_added_normalized,16000
+new_added_single_word,0
+new_added_without_kazakh_letter,5531
+new_added_with_leading_space,12188

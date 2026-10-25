@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Hugging Face cache and login token (never commit)
+hf/
+# Private inputs: book text, hand-written questions
+data/private/

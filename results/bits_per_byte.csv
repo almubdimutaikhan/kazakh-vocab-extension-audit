@@ -1,0 +1,16 @@
+set,lang,model,docs,bytes,tokens,bits_per_byte,ci_low,ci_high,bits_per_token,pct_change,docs_issai_better
+belebele,kk,qwen3.5-orig,300,280408.0,67604.0,0.7247,0.712,0.7381,3.006,,
+belebele,kk,qwen3.5-issai,300,280408.0,34865.0,0.5386,0.5297,0.5475,4.332,,
+belebele,kk,issai_minus_orig,300,,,-0.1862,-0.1945,-0.1783,,-25.7,300.0
+belebele,ru,qwen3.5-orig,300,294031.0,40513.0,0.5209,0.511,0.5323,3.781,,
+belebele,ru,qwen3.5-issai,300,294031.0,48385.0,0.492,0.4825,0.5023,2.99,,
+belebele,ru,issai_minus_orig,300,,,-0.0289,-0.0323,-0.0255,,-5.5,257.0
+belebele,en,qwen3.5-orig,300,141522.0,29474.0,0.8639,0.8455,0.8831,4.148,,
+belebele,en,qwen3.5-issai,300,141522.0,29474.0,0.7767,0.7599,0.7933,3.729,,
+belebele,en,issai_minus_orig,300,,,-0.0872,-0.0935,-0.0814,,-10.1,295.0
+kazmmlu,kk,qwen3.5-orig,300,75314.0,22562.0,1.0207,0.9824,1.0621,3.407,,
+kazmmlu,kk,qwen3.5-issai,300,75314.0,14849.0,0.6586,0.6374,0.6821,3.341,,
+kazmmlu,kk,issai_minus_orig,300,,,-0.3621,-0.3874,-0.3391,,-35.5,300.0
+kazmmlu,ru,qwen3.5-orig,300,88592.0,18420.0,0.6889,0.6593,0.7209,3.313,,
+kazmmlu,ru,qwen3.5-issai,300,88592.0,19331.0,0.5997,0.5767,0.6241,2.748,,
+kazmmlu,ru,issai_minus_orig,300,,,-0.0892,-0.1,-0.0789,,-12.9,277.0
