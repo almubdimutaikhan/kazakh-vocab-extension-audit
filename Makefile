@@ -7,25 +7,25 @@ RUN      = cd scripts && $(PY)
 
 all: audit splits stems bpb bench figure
 
-audit:      ## Tables 1, 1b
+audit:      ## Figures 1, 2
 	$(RUN) audit.py
 
-splits:     ## Table 2 + counterfactual tokenizer
+splits:     ## Figure 3 + counterfactual tokenizer
 	$(RUN) russian_splits.py
 
-stems:      ## Table 3
+stems:      ## Figure 4
 	$(RUN) stem_check.py
 
-bpb:        ## Table 4
+bpb:        ## Figure 5
 	for m in $(MODELS); do $(RUN) bits_per_byte.py $$m || exit 1; done
 	$(RUN) bits_per_byte.py --summarize
 
-bench:      ## Table 6
+bench:      ## Figures 6, 7
 	for m in $(MODELS); do $(RUN) benchmarks.py $$m || exit 1; done
 	$(RUN) benchmarks.py --summarize
 
-knowledge:  ## Table 5 (needs data/private/knowledge_questions.tsv)
+knowledge:  ## knowledge check (needs data/private/knowledge_questions.tsv)
 	for m in $(MODELS); do $(RUN) knowledge_check.py $$m || exit 1; done
 
-figure:     ## figures/tokens_vs_bpb.png
+figure:     ## figures/*.png (all README charts)
 	$(RUN) figure.py
