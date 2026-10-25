@@ -182,8 +182,10 @@ words. Data: [results/stem_alignment.csv](results/stem_alignment.csv).
 
 Each row is one text set. The blue dot is the original model's bits per
 byte, the orange dot is ISSAI's, and the line between them is the gap; whiskers are 95% intervals
-over documents. Dots further left mean the model predicts the text better. The bold number is the
-change in bits per byte, and the grey text counts the documents (of 300) where ISSAI is better.
+over documents. Dots further left mean the model predicts the text better. The bold percentage is the
+relative change, (ISSAI − original) ÷ original: for Kazakh Belebele, (0.539 − 0.725) ÷ 0.725 =
+−25.7%, meaning ISSAI needs a quarter fewer bits to encode the same text. Negative = ISSAI
+predicts the text better. The grey text counts the documents (of 300) where ISSAI is better.
 Compare rows within one language only.
 
 Each document was scored separately (bf16 weights, fp32 log-softmax, `<|endoftext|>` prefix so
