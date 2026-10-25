@@ -9,7 +9,7 @@ Sherkala paper) and adds tokenizer-independent and benchmark checks. It is not a
 
 ![Cost vs. quality](figures/0_cost_vs_quality.png)
 
-**How to read this.** Each panel is one language. Every dot is one text set (Belebele or
+Each panel is one language. Every dot is one text set (Belebele or
 KazMMLU). The blue dot is the original model, the orange dot is the ISSAI model on the *same*
 text, and the arrow joins them. Left = fewer tokens per word (cheaper). Down = lower
 bits per byte (the model is less surprised by the text, so it predicts it better). An arrow
@@ -89,7 +89,7 @@ and English MMLU (14,042). Sources, licenses and sampling: [data/README.md](data
 
 ![Tokens per word](figures/1_tokens_per_word.png)
 
-**How to read this.** Each panel is one language and text set. Each bar is one tokenizer's
+Each panel is one language and text set. Each bar is one tokenizer's
 tokens per word; the number on top is the value and the whisker is its 95% interval over
 documents. In each pair the left bar is the base tokenizer and the right bar is its extended
 version (Qwen → ISSAI, LLaMA → Sherkala). Shorter is cheaper.
@@ -109,7 +109,7 @@ ratio of the bars.
 
 ![Change in token count](figures/2_change_vs_base.png)
 
-**How to read this.** Each bar is the change in **total token count** of an extended tokenizer
+Each bar is the change in **total token count** of an extended tokenizer
 compared with the tokenizer it was built from, on the same text. A bar pointing left means
 fewer tokens (cheaper); right means more (costlier). Orange is ISSAI vs. Qwen3.5, yellow is
 Sherkala vs. LLaMA-3.1. Whiskers are 95% intervals. The white diamonds are the values published
@@ -137,7 +137,7 @@ token.
 
 ![Russian word splits](figures/3a_russian_word_splits.png)
 
-**How to read this.** Each row is a common Russian word, with how often it occurs in the 300
+Each row is a common Russian word, with how often it occurs in the 300
 passages. Each box is one token. Blue boxes are how the original Qwen3.5 tokenizer writes the
 word (usually one token); orange boxes are how ISSAI's does. Many frequent words get chopped
 into short fragments (`которые` → `кот · оры · е`). Data:
@@ -145,7 +145,7 @@ into short fragments (`которые` → `кот · оры · е`). Data:
 
 ![Counterfactual tokenizers](figures/3b_russian_counterfactual.png)
 
-**How to read this.** We rebuilt the ISSAI tokenizer without some of the added tokens and
+We rebuilt the ISSAI tokenizer without some of the added tokens and
 counted the same text again. Each group of bars is one variant; the dark bar is Belebele, the
 pale bar is KazMMLU. Bars below zero mean fewer tokens than the original Qwen3.5 tokenizer
 (cheaper), above zero mean more. Left panel: Kazakh. Right panel: Russian.
@@ -160,7 +160,7 @@ would need retraining or at least re-evaluation. Data:
 
 ![Stem alignment](figures/4_stem_alignment.png)
 
-**How to read this.** 110 frequent Kazakh words were hand-segmented into stem + endings
+110 frequent Kazakh words were hand-segmented into stem + endings
 ([data/kk_segmentation.tsv](data/kk_segmentation.tsv), 194 true morpheme boundaries). Each panel
 is one measure; each bar is one tokenizer (same colors as Figure 1).
 
@@ -180,7 +180,7 @@ words. Data: [results/stem_alignment.csv](results/stem_alignment.csv).
 
 ![Bits per byte](figures/5_bits_per_byte.png)
 
-**How to read this.** Each row is one text set. The blue dot is the original model's bits per
+Each row is one text set. The blue dot is the original model's bits per
 byte, the orange dot is ISSAI's, and the line between them is the gap; whiskers are 95% intervals
 over documents. Dots further left mean the model predicts the text better. The bold number is the
 change in bits per byte, and the grey text counts the documents (of 300) where ISSAI is better.
@@ -201,7 +201,7 @@ with FLORES/Belebele-like text.
 
 ![Benchmarks](figures/6_benchmarks.png)
 
-**How to read this.** Each row is one benchmark. The model gets each question once, zero-shot, and
+Each row is one benchmark. The model gets each question once, zero-shot, and
 we record whether it picked the right answer letter (see *How the benchmarks were run* below).
 
 - **Left panel, accuracy.** Blue dot = original, orange dot = ISSAI (original slightly above,
@@ -228,7 +228,7 @@ padding.
 
 ![KazMMLU by subject](figures/7_kazmmlu_subjects.png)
 
-**How to read this.** Each bar is one KazMMLU subject: ISSAI accuracy minus original accuracy, in
+Each bar is one KazMMLU subject: ISSAI accuracy minus original accuracy, in
 percentage points. Blue (right) = ISSAI better, red (left) = original better. `(kk)` is the Kazakh
 track, `(ru)` the Russian track, and "professional" marks university-level subjects; the rest are
 school subjects. Data: [results/kazmmlu_by_subject.csv](results/kazmmlu_by_subject.csv).
