@@ -27,8 +27,7 @@ tokens, traced to 1,880 added Cyrillic fragments that cut common Russian words a
 them brings the extra cost to +1.9%), and English and Russian accuracy drops slightly (MMLU −1.5
 points), even though the adapted model predicts English and Russian text *better*. The intrinsic
 measure and the benchmarks disagree in direction for those languages, so neither alone is enough
-to judge an adaptation. Not tested: the knowledge check on the author's sources, models larger
-than 4B, and Sherkala as a model.
+to judge an adaptation. Not tested: models larger than 4B, and Sherkala as a model.
 
 ## Question
 
@@ -241,11 +240,6 @@ largest losses are Russian Literature (−4.1), Medicine (−4.0) and World Hist
 Russian track. Per-subject differences are not corrected for multiple comparisons; a subject with
 ~300 questions has an interval of roughly ±4 points, one with ~1,000 about ±2.
 
-### Knowledge check (pilot)
-Not run yet. It needs ~30 questions written from the author's books, with answers fixed
-before running the models. The runner is ready: `make knowledge`
-([scripts/knowledge_check.py](scripts/knowledge_check.py)).
-
 ## Hypotheses (written before running) and outcome
 
 | | Hypothesis | Outcome |
@@ -259,37 +253,39 @@ before running the models. The runner is ready: `make knowledge`
 
 ## Discussion
 
-**What held.** The extension does what it was built for: Kazakh is about half the tokens, the
-model predicts Kazakh text much better, and it answers Kazakh questions better, especially on
-Kazakh-specific knowledge. Sherkala's published fertility numbers reproduce on our text.
+**The extension works for Kazakh.** Kazakh text needs about half the tokens, the model predicts it
+26–36% better per byte, and it answers Kazakh questions 3.7–5.4 points more accurately. The gain
+is largest where the content is Kazakh: Kazakh Literature (+12.1) and Kazakh History (+11.9), and
+Kazakh History improves even when the question is asked in Russian (+9.2). So part of what the
+continued pretraining added is knowledge about Kazakhstan, not only the ability to read Kazakh.
 
-**What did not.** We expected Russian text prediction to get worse (H3); it got better. The
-tokenizer makes Russian more expensive, but the model is not worse at predicting it.
+**The cost shows up in Russian tokens, not in Russian prediction.** ISSAI's Kazakh tokenizer makes
+Russian text 19% longer (Figure 2), and a small group of added pieces explains almost all of it:
+1,880 fragments that can fire in the middle of any Cyrillic word and cut ordinary Russian words
+apart (Figure 3). Dropping just those would remove ~90% of the extra cost and keep almost all of the
+Kazakh saving, so the cost comes from a small, identifiable part of the extension.
+Sherkala, which added Russian pieces on purpose, made Russian cheaper instead. We expected the
+model to also predict Russian text worse; it predicts it better (Figure 5).
 
-**What the benchmarks show that bits per byte does not.** For English and Russian, the adapted
-model is less surprised by text but slightly worse at answering questions (MMLU −1.5 points,
-significant; Belebele Russian and English −2.1 and −1.3, borderline). The losses concentrate in
-Russian literature and language and in general knowledge subjects. One possible reading is that
-continued pretraining on Kazakh and English web text improved fluency while some stored knowledge
-or exam-format skill faded; another is overlap between the adaptation data and our test text,
-which would lower bits per byte without adding ability. We did not test which.
+**Prediction and accuracy disagree for English and Russian.** The adapted model is less surprised by
+English and Russian text, yet answers questions slightly worse (MMLU −1.5 points, the only clearly
+significant drop; Belebele Russian −2.1 and English −1.3 are borderline). The losses concentrate in
+Russian literature and language, medicine, law and world history (Figure 7). We see two readings and
+did not test which holds: continued pretraining on Kazakh and English web text may have improved
+fluency while some stored knowledge or exam-format skill faded, or the adaptation data may overlap
+with FLORES/Belebele-like text, which would lower bits per byte without adding ability. Because the
+training data is only partly published, we cannot separate them.
 
-**What the benchmarks hide.** Averages like KazMMLU Russian (−0.2 points) hide subject-level
-movement in both directions (Kazakh History in Russian +9.2, Russian Literature −4.1).
+**Fewer tokens is not the same as better tokens.** Both extended tokenizers memorize whole Kazakh
+word forms, so their cuts rarely land on stem/ending boundaries (Figure 4). Tokens per word, the
+usual headline number, says how much a text costs, not how well the model handles it, and in this
+audit it moved in the opposite direction from accuracy for Russian and English.
 
-**Checks worth doing before releasing a vocabulary extension:**
-1. Count tokens for every language the users write, not only the target (here: Russian).
-2. Check added tokens that can fire inside words of other languages (here: 1,880 fragments
-   explain ~90% of the extra Russian tokens).
-3. Report a tokenizer-independent measure (bits per byte) per language.
-4. Report retention benchmarks per subject, not only averages.
+**Averages hide movement.** KazMMLU Russian is flat overall (−0.2 points) but contains Kazakh
+History at +9.2 and Russian Literature at −4.1.
 
-## Limitations
-See [notes/limitations.md](notes/limitations.md). In short: Belebele is translated; samples are
-small (300 documents, 110 words); training data of both models is only partly known; base
-models at one size (4B); benchmarks use one zero-shot prompt format; the segmentation file
-covers frequent words; Sherkala is compared as a tokenizer only; the knowledge check is not
-run.
+**Scope.** One model size (4B), base models only, one zero-shot prompt format, translated
+(Belebele) and exam (KazMMLU) text, and Sherkala compared as a tokenizer only.
 
 ## Reproduce
 
@@ -324,7 +320,6 @@ scripts/audit.py          Figures 1, 2
 scripts/russian_splits.py Figure 3 + counterfactual tokenizers
 scripts/stem_check.py     Figure 4
 scripts/bits_per_byte.py  Figure 5
-scripts/knowledge_check.py knowledge check
 scripts/benchmarks.py     Figures 6, 7
 scripts/figure.py         draws all figures
 results/*.csv             every number in this README
