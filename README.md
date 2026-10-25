@@ -82,9 +82,11 @@ Tokens per whitespace word (95% bootstrap CI over documents). Full table:
 | LLaMA-3.1 | 4.85 (4.81–4.89) | 2.20 (2.18–2.22) | 1.24 | 4.88 (4.77–5.00) | 2.87 (2.78–2.98) |
 | Sherkala | 1.82 (1.80–1.84) | 1.88 (1.85–1.90) | 1.24 | 2.63 (2.52–2.75) | 2.60 (2.50–2.70) |
 
-Kazakh-to-English token ratio on the parallel passages: 2.29 → 1.18 (Qwen → ISSAI),
-3.25 → 1.22 (LLaMA-3.1 → Sherkala). Russian-to-English: 1.37 → 1.64 (Qwen → ISSAI),
-1.67 → 1.42 (LLaMA-3.1 → Sherkala).
+Kazakh-to-English ratio of **total tokens** on the parallel Belebele passages (not tokens per
+word: the Kazakh passages have fewer words than the English ones, 19,404 vs. 23,271, so this
+ratio is smaller than the ratio of the tokens-per-word figures above; column `tokens_vs_en` in
+the CSV): 2.29 → 1.18 (Qwen → ISSAI), 3.25 → 1.22 (LLaMA-3.1 → Sherkala). Russian-to-English:
+1.37 → 1.64 (Qwen → ISSAI), 1.67 → 1.42 (LLaMA-3.1 → Sherkala).
 
 ### Table 1b: two extension designs, relative change on the same text
 Change in token count, extended tokenizer vs. its own base
