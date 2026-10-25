@@ -287,6 +287,26 @@ History at +9.2 and Russian Literature at −4.1.
 **Scope.** One model size (4B), base models only, one zero-shot prompt format, translated
 (Belebele) and exam (KazMMLU) text, and Sherkala compared as a tokenizer only.
 
+## Next steps
+
+1. **Cultural heritage check (Qwen original vs. ISSAI).** The largest benchmark gains were on
+   Kazakh History and Literature (Figure 7), so this is where a closer look pays most. Write
+   100–200 multiple-choice questions from sources the author knows (history, literature,
+   traditions, language), fix the answers before running any model, and ask each question in
+   Kazakh, Russian and English. Asking the same question in three languages separates "knows
+   Kazakh culture" from "reads Kazakh". Use the same zero-shot letter-scoring protocol as the
+   benchmarks and report the paired difference with an interval. About 30 questions is only a
+   pilot: its 95% interval is roughly ±17 points, too wide to see a 5-point change.
+2. **Sherkala as a model, not only a tokenizer.** Do this after step 1, reusing its question set.
+   The fair pair is LLaMA-3.1-8B-Instruct vs. Sherkala-8B-Chat, because only a Chat version of
+   Sherkala exists; comparing it with the 4B Qwen models would mix model size, model family and
+   instruction tuning. It needs a chat-style prompt, and an 8B model in bf16 takes ~16 GB, which
+   does not fit the ~16 GB GPU share used so far (use 8-bit loading or another node).
+3. **Test the overlap explanation.** Bits per byte improved even for English, which could be
+   real improvement or overlap between the adaptation data and FLORES/Belebele-style text. Score
+   both models on text published after their training data was collected; if the gain on
+   English and Russian shrinks, overlap explains part of it.
+
 ## Reproduce
 
 ```bash
